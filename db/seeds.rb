@@ -8,5 +8,6 @@
 User.destroy_all
 
 user1 = User.create(username: "sample", password: "sample")
-
+Todo.create(title: "Buy food: milk, bread, fruits", done: false)
+Todo.create(title: "Imagine Dragons tickets", done: false)
 puts 'seeded'
